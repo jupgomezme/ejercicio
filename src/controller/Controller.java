@@ -36,7 +36,7 @@ public class Controller {
 			int option = lector.nextInt();
 			switch(option){
 				case 1:
-					System.out.println("--------- \nCrear Arreglo \nDar capacidad inicial del arreglo: ");
+					System.out.println("--------- \nCrear otra cosa. \nDar capacidad inicial del arreglo: ");
 				    int capacidad = lector.nextInt();
 				    modelo = new MVCModelo(capacidad); 
 					System.out.println("Arreglo Dinamico creado");
